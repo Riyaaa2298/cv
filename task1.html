@@ -1,0 +1,79 @@
+<html>
+<head>
+<style>
+body{
+	background-color:lightblue;
+
+}
+.box{
+  padding-top: 50;
+  height: 200;
+  width: 400;
+  padding-right: 100;
+  padding-bottom: 50;
+  padding-left: 50;
+  background-color:pink;
+  position:absolute;
+  left: 350px;
+  top: 100;
+}
+img{
+	border-radius:50%;
+	background-color: white;
+	height: 70;
+	position: absolute;
+	transform:translate(350%, 40%);
+	top: 0;
+	left: 0;	
+}
+form{
+	position: absolute;
+	padding-left:80;
+	padding-top: 90;
+}
+label{
+	margin-right: 10;
+}
+.submit{
+	position: absolute;
+	left: 180;
+	top: 190;
+}
+.reg{
+	position: absolute;
+	left: 450;
+	top: 270;
+}
+ input[type=button] {
+        background-color:green;
+        border: none;
+        color: #fff;
+        padding: 10px 12px;
+        margin: 2px 5px;
+        cursor: pointer;
+        left: 25;
+      }
+}
+</style>
+</head>
+<body>
+		
+	<div class="box">
+		<img src="image.jpg" alt="logo" height="70" width="70">
+		<form>
+			<label for="username">User name:</label>
+  <input type="text" id="username" name="username"><br>
+  <br>
+  <label for="password">Password  :</label>
+  <input type="password" id="password" name="password"><br>
+  <br>
+  <div class="submit">
+  <input type="button" name="submit" value="Submit"></input>
+</div>
+</form>
+<div class="reg">
+<a href="https://www.google.com">Register here</a>
+	</div>
+</div>
+</body>
+</html>
